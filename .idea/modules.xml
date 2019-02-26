@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/serverRigistor/serverRigistor.iml" filepath="$PROJECT_DIR$/serverRigistor/serverRigistor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceOne/serviceOne.iml" filepath="$PROJECT_DIR$/serviceOne/serviceOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/serviceTwo.iml" filepath="$PROJECT_DIR$/service/serviceTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudGw.iml" filepath="$PROJECT_DIR$/springcloudGw.iml" />
+    </modules>
+  </component>
+</project>

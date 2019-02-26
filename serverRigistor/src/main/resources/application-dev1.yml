@@ -1,0 +1,29 @@
+server:
+  port: ${dev.dev1Port}
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@${dev.host}:${dev.dev2Port}/eureka,http://admin:admin@${dev.host}:${dev.dev3Port}/eureka
+
+
+
+
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://admin:admin@localhost:8761/eureka/
+
+
+#spring:
+#  profiles: peer1
+#eureka:
+#  instance:
+#    hostname: peer1
+#  client:
+#    serviceUrl:
+#      defaultZone: http://peer2/eureka/
+
+
+
+

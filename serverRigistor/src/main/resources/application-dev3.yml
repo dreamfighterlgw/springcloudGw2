@@ -1,0 +1,6 @@
+server:
+  port: ${dev.dev3Port}
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@${dev.host}:${dev.dev1Port}/eureka,http://admin:admin@${dev.host}:${dev.dev2Port}/eureka
